@@ -7,6 +7,6 @@ follows:
 ```sh
 cd $HOME
 sudo apt-get install -y git-core
-git clone https://github.com/octavio-orozco2/dotfiles.git
+git clone https://github.com/octavio-orozco2/setup.git
 ./setup/setup.sh   
 ```

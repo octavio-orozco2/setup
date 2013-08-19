@@ -30,7 +30,10 @@ cd $HOME
 if [ -d ./dotfiles/ ]; then
     mv dotfiles dotfiles.old
 fi
-git clone git@github.com:octavio-orozco2/dotfiles.git
+
+# En lo que se resuelve le paso del id de ssh
+#git clone git@github.com:octavio-orozco2/dotfiles.git
+git clone https://github.com/octavio-orozco2/dotfiles.git
 ln -sb dotfiles/.tmux.conf ~
 ln -sb dotfiles/.bash_profile ~
 ln -sb dotfiles/.bashrc ~

@@ -11,3 +11,6 @@ git config --global credential.helper 'cache --timeout=28800'
 git clone https://github.com/octavio-orozco2/setup.git
 ./setup/setup.sh   
 ```
+
+Rembember to logout and login again, or source the dotfiles to the current session.
+

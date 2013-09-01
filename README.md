@@ -5,7 +5,7 @@ add it to Github at https://github.com/settings/ssh
 
 ```sh
 cd $HOME
-ssh-keygen -t rsa -C "your email here"
+ssh-keygen -t rsa -C "$EMAIL"
 cat ~/.ssh/id_rsa.pub
 ```
 
@@ -16,9 +16,9 @@ follows:
 ```sh
 cd $HOME
 sudo apt-get install -y git-core
-git clone git@github.com:octavio-orozco2/setup.git
 git config --global user.name octavio-orozco2
 git config --global user.email $EMAIL
+git clone git@github.com:octavio-orozco2/setup.git
 ./setup/setup.sh   
 ```
 

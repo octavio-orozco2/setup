@@ -22,8 +22,8 @@ git config --global user.email $EMAIL
 ./setup/setup.sh   
 ```
 
-Rembember to logout and login again, to source the dotfiles to the session:
+Rembember to log out and log back in to enable the environment defined in the dotfiles and to enable node:
 
 ```sh
-exit # log out and log back in to enable node
+exit 
 ```

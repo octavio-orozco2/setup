@@ -5,7 +5,7 @@ add it to Github at https://github.com/settings/ssh
 
 ```sh
 cd $HOME
-ssh-keygen -t rsa
+ssh-keygen -t rsa -C "your email here"
 cat ~/.ssh/id_rsa.pub
 ```
 
